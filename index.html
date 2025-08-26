@@ -1,271 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevPro Services - Professional Development Solutions</title>
-
-    <!-- Local CSS Files -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>DevPro Services - Professional Software Development Solutions | Mobile Apps, Web & Custom Software</title>
+    <meta name="description" content="DevPro Services offers professional software development solutions including mobile app development, web applications, and custom software. Get expert developers for your digital transformation.">
+    <meta name="keywords" content="software development, mobile app development, web development, custom software, iOS development, Android development, React Native, Flutter, web applications, enterprise software">
+    <meta name="author" content="DevPro Services">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="DevPro Services - Professional Software Development Solutions">
+    <meta property="og:description" content="Transform your ideas into powerful digital solutions with our expert development team. Mobile apps, websites, and custom software.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.devproservices.com/">
+    <meta property="og:image" content="https://www.devproservices.com/images/og-image.jpg">
+    <meta property="og:site_name" content="DevPro Services">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DevPro Services - Professional Development Solutions">
+    <meta name="twitter:description" content="Expert software development services for mobile apps, web applications, and custom solutions.">
+    <meta name="twitter:image" content="https://www.devproservices.com/images/twitter-card.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.devproservices.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <!-- CSS Files -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/js/all.min.js"
-        integrity="sha512-gBYquPLlR76UWqCwD06/xwal4so02RjIR0oyG1TIhSGwmBTRrIkQbaPehPF8iwuY9jFikDHMGEelt0DtY7jtvQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "DevPro Services",
+        "url": "https://www.devproservices.com",
+        "logo": "https://www.devproservices.com/images/logo.png",
+        "description": "Professional software development company offering mobile apps, web applications, and custom software solutions.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Tech Street",
+            "addressLocality": "Digital City",
+            "postalCode": "12345",
+            "addressCountry": "US"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-555-123-4567",
+            "contactType": "customer service",
+            "availableLanguage": "English"
+        },
+        "sameAs": [
+            "https://www.facebook.com/devproservices",
+            "https://www.twitter.com/devproservices",
+            "https://www.linkedin.com/company/devproservices",
+            "https://www.instagram.com/devproservices"
+        ]
+    }
+    </script>
 </head>
-
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <i class="fas fa-code"></i> DevPro
-            </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pricing.html">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-
-                <a href="contact.html" class="btn btn-quote">Get Quote</a>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="hero-content" data-aos="fade-up">
-                        <h1>Professional Development Solutions</h1>
-                        <p>Transform your ideas into powerful digital solutions with our expert development team. We
-                            create mobile apps, websites, and custom software that drive business growth.</p>
-                        <div class="hero-buttons">
-                            <a href="services.html" class="btn btn-primary-hero"><i class="fas fa-rocket me-2"></i>Our
-                                Services</a>
-                            <a href="contact.html" class="btn btn-outline-hero"><i
-                                    class="fas fa-paper-plane me-2"></i>Get Started</a>
-                        </div>
-                    </div>
+    <!-- Skip to Main Content (Accessibility) -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Header Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" role="navigation" aria-label="Main navigation">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" aria-label="DevPro Services Home">
+                    <i class="fas fa-code" aria-hidden="true"></i> 
+                    <span>DevPro</span>
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    
+                    <a href="contact.html" class="btn btn-quote" aria-label="Get a quote">Get Quote</a>
                 </div>
             </div>
-        </div>
-    </section>
+        </nav>
+    </header>
 
-    <!-- Services Overview -->
-    <section id="services" class="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
-                    <h2 class="display-4 fw-bold mb-3">Our Services</h2>
-                    <p class="lead text-muted">We offer comprehensive development solutions tailored to your business
-                        needs</p>
-                </div>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="service-card">
-                        <div class="service-image mb-3">
-                            <img src="https://picsum.photos/300/200?random=1" alt="Mobile App Development"
-                                class="img-fluid rounded">
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero" aria-labelledby="hero-heading">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="hero-content" data-aos="fade-up">
+                            <h1 id="hero-heading">Professional Development Solutions</h1>
+                            <p>Transform your ideas into powerful digital solutions with our expert development team. We create mobile apps, websites, and custom software that drive business growth.</p>
+                            <div class="hero-buttons">
+                                <a href="services.html" class="btn btn-primary-hero">
+                                    <i class="fas fa-rocket" aria-hidden="true"></i>
+                                    <span>Our Services</span>
+                                </a>
+                                <a href="contact.html" class="btn btn-outline-hero">
+                                    <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                                    <span>Get Started</span>
+                                </a>
+                            </div>
                         </div>
-                        <div class="service-icon">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                        <h4 class="mb-3">Mobile App Development</h4>
-                        <p class="text-muted">Create stunning native and cross-platform mobile applications for iOS and
-                            Android with cutting-edge features and seamless user experience.</p>
-                        <a href="mobile-app-detail.html" class="btn btn-outline-primary"><i
-                                class="fas fa-arrow-right me-2"></i>Learn More</a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <div class="service-card">
-                        <div class="service-image mb-3">
-                            <img src="https://picsum.photos/300/200?random=2" alt="Web Application Development"
-                                class="img-fluid rounded">
-                        </div>
-                        <div class="service-icon">
-                            <i class="fas fa-globe"></i>
-                        </div>
-                        <h4 class="mb-3">Web Application Development</h4>
-                        <p class="text-muted">Build responsive, scalable web applications using modern frameworks and
-                            technologies that deliver exceptional performance and user engagement.</p>
-                        <a href="website-detail.html" class="btn btn-outline-primary"><i
-                                class="fas fa-arrow-right me-2"></i>Learn More</a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                    <div class="service-card">
-                        <div class="service-image mb-3">
-                            <img src="https://picsum.photos/300/200?random=3" alt="Custom Software Development"
-                                class="img-fluid rounded">
-                        </div>
-                        <div class="service-icon">
-                            <i class="fas fa-cogs"></i>
-                        </div>
-                        <h4 class="mb-3">Custom Software Development</h4>
-                        <p class="text-muted">Develop tailored software solutions that perfectly fit your business
-                            requirements with advanced features and enterprise-grade security.</p>
-                        <a href="custom-software-detail.html" class="btn btn-outline-primary"><i
-                                class="fas fa-arrow-right me-2"></i>Learn More</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Why Choose Us -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
-                    <h2 class="display-4 fw-bold mb-3">Why Choose Us</h2>
-                    <p class="lead text-muted">We deliver exceptional results with our proven expertise and commitment
-                        to excellence</p>
+        <!-- Services Overview Section -->
+        <section id="services" class="services" aria-labelledby="services-heading">
+            <div class="container">
+                <header class="row">
+                    <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+                        <h2 id="services-heading" class="display-4 fw-bold mb-3">Our Services</h2>
+                        <p class="lead text-muted">We offer comprehensive development solutions tailored to your business needs</p>
+                    </div>
+                </header>
+
+                <div class="row g-4">
+                    <article class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-card h-100">
+                            <figure class="service-image mb-3">
+                                <img src="https://picsum.photos/300/200?random=1" 
+                                     alt="Mobile app development interface on smartphone" 
+                                     class="img-fluid rounded"
+                                     loading="lazy"
+                                     width="300"
+                                     height="200">
+                            </figure>
+                            <div class="service-icon" aria-hidden="true">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h3 class="h4 mb-3">Mobile App Development</h3>
+                            <p class="text-muted">Create stunning native and cross-platform mobile applications for iOS and Android with cutting-edge features and seamless user experience.</p>
+                            <a href="mobile-app-detail.html" class="btn btn-outline-primary" aria-label="Learn more about mobile app development">
+                                <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                                <span>Learn More</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-card h-100">
+                            <figure class="service-image mb-3">
+                                <img src="https://picsum.photos/300/200?random=2" 
+                                     alt="Web application development dashboard" 
+                                     class="img-fluid rounded"
+                                     loading="lazy"
+                                     width="300"
+                                     height="200">
+                            </figure>
+                            <div class="service-icon" aria-hidden="true">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h3 class="h4 mb-3">Web Application Development</h3>
+                            <p class="text-muted">Build responsive, scalable web applications using modern frameworks and technologies that deliver exceptional performance and user engagement.</p>
+                            <a href="website-detail.html" class="btn btn-outline-primary" aria-label="Learn more about web application development">
+                                <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                                <span>Learn More</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-card h-100">
+                            <figure class="service-image mb-3">
+                                <img src="https://picsum.photos/300/200?random=3" 
+                                     alt="Custom software development architecture" 
+                                     class="img-fluid rounded"
+                                     loading="lazy"
+                                     width="300"
+                                     height="200">
+                            </figure>
+                            <div class="service-icon" aria-hidden="true">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <h3 class="h4 mb-3">Custom Software Development</h3>
+                            <p class="text-muted">Develop tailored software solutions that perfectly fit your business requirements with advanced features and enterprise-grade security.</p>
+                            <a href="custom-software-detail.html" class="btn btn-outline-primary" aria-label="Learn more about custom software development">
+                                <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                                <span>Learn More</span>
+                            </a>
+                        </div>
+                    </article>
                 </div>
             </div>
+        </section>
 
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-users"></i>
-                        </div>
-                        <h5 class="mb-3">Expert Team</h5>
-                        <p class="text-muted">Our skilled developers have years of experience in cutting-edge
-                            technologies and best practices.</p>
+        <!-- Why Choose Us Section -->
+        <section id="about" class="about" aria-labelledby="about-heading">
+            <div class="container">
+                <header class="row">
+                    <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+                        <h2 id="about-heading" class="display-4 fw-bold mb-3">Why Choose Us</h2>
+                        <p class="lead text-muted">We deliver exceptional results with our proven expertise and commitment to excellence</p>
                     </div>
-                </div>
+                </header>
 
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-code"></i>
+                <div class="row g-4">
+                    <article class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature-item h-100">
+                            <div class="feature-icon" aria-hidden="true">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3 class="h5 mb-3">Expert Team</h3>
+                            <p class="text-muted">Our skilled developers have years of experience in cutting-edge technologies and best practices.</p>
                         </div>
-                        <h5 class="mb-3">Quality Code</h5>
-                        <p class="text-muted">We write clean, maintainable, and scalable code following industry
-                            standards and best practices.</p>
-                    </div>
-                </div>
+                    </article>
 
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-clock"></i>
+                    <article class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="feature-item h-100">
+                            <div class="feature-icon" aria-hidden="true">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3 class="h5 mb-3">Quality Code</h3>
+                            <p class="text-muted">We write clean, maintainable, and scalable code following industry standards and best practices.</p>
                         </div>
-                        <h5 class="mb-3">On-Time Delivery</h5>
-                        <p class="text-muted">We respect deadlines and ensure your project is delivered on time without
-                            compromising quality.</p>
-                    </div>
-                </div>
+                    </article>
 
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-headset"></i>
+                    <article class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="feature-item h-100">
+                            <div class="feature-icon" aria-hidden="true">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h3 class="h5 mb-3">On-Time Delivery</h3>
+                            <p class="text-muted">We respect deadlines and ensure your project is delivered on time without compromising quality.</p>
                         </div>
-                        <h5 class="mb-3">24/7 Support</h5>
-                        <p class="text-muted">Our dedicated support team is available round the clock to assist you with
-                            any queries or issues.</p>
-                    </div>
+                    </article>
+
+                    <article class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="feature-item h-100">
+                            <div class="feature-icon" aria-hidden="true">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <h3 class="h5 mb-3">24/7 Support</h3>
+                            <p class="text-muted">Our dedicated support team is available round the clock to assist you with any queries or issues.</p>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <h5>DevPro Services</h5>
-                    <p class="text-muted">Professional development solutions for modern businesses. We create digital
-                        experiences that drive growth and success.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
+                    <h4 class="h5">DevPro Services</h4>
+                    <p class="text-muted">Professional development solutions for modern businesses. We create digital experiences that drive growth and success.</p>
+                    <nav class="social-links" aria-label="Social media links">
+                        <a href="https://facebook.com/devproservices" aria-label="Facebook" rel="noopener noreferrer" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/devproservices" aria-label="Twitter" rel="noopener noreferrer" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://linkedin.com/company/devproservices" aria-label="LinkedIn" rel="noopener noreferrer" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://instagram.com/devproservices" aria-label="Instagram" rel="noopener noreferrer" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </nav>
                 </div>
-
+                
                 <div class="col-lg-2 col-md-6 mb-4">
-                    <h5>Services</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="services.html">Mobile Apps</a></li>
-                        <li><a href="services.html">Web Development</a></li>
-                        <li><a href="services.html">Custom Software</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
-                    </ul>
+                    <h4 class="h5">Services</h4>
+                    <nav aria-label="Services navigation">
+                        <ul class="list-unstyled">
+                            <li><a href="services.html#mobile-apps">Mobile Apps</a></li>
+                            <li><a href="services.html#web-development">Web Development</a></li>
+                            <li><a href="services.html#custom-software">Custom Software</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                        </ul>
+                    </nav>
                 </div>
-
+                
                 <div class="col-lg-2 col-md-6 mb-4">
-                    <h5>Company</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
+                    <h4 class="h5">Company</h4>
+                    <nav aria-label="Company navigation">
+                        <ul class="list-unstyled">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="/portfolio">Portfolio</a></li>
+                            <li><a href="/blog">Blog</a></li>
+                        </ul>
+                    </nav>
                 </div>
-
+                
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <h5>Contact Info</h5>
-                    <p class="text-muted">
-                        <i class="fas fa-envelope me-2"></i> info@devproservices.com<br>
-                        <i class="fas fa-phone me-2"></i> +1 (555) 123-4567<br>
-                        <i class="fas fa-map-marker-alt me-2"></i> 123 Tech Street, Digital City
-                    </p>
+                    <h4 class="h5">Contact Info</h4>
+                    <address class="text-muted">
+                        <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:info@devproservices.com">info@devproservices.com</a></p>
+                        <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+                        <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> 123 Tech Street, Digital City, DC 12345</p>
+                    </address>
                 </div>
             </div>
-
+            
             <hr class="my-4">
-
+            
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <p class="text-muted mb-0">&copy; 2024 DevPro Services. All rights reserved.</p>
                 </div>
                 <div class="col-md-6 text-md-end">
-                    <a href="#" class="text-muted me-3">Privacy Policy</a>
-                    <a href="#" class="text-muted">Terms of Service</a>
+                    <nav aria-label="Legal navigation">
+                        <a href="/privacy-policy" class="text-muted me-3">Privacy Policy</a>
+                        <a href="/terms-of-service" class="text-muted">Terms of Service</a>
+                    </nav>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- Local JavaScript Files -->
+    <!-- JavaScript Files -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/script.js"></script>
 </body>
-
 </html>
