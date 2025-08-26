@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - DevPro Services</title>
+    
+    <!-- Local CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/js/all.min.js"
+        integrity="sha512-gBYquPLlR76UWqCwD06/xwal4so02RjIR0oyG1TIhSGwmBTRrIkQbaPehPF8iwuY9jFikDHMGEelt0DtY7jtvQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-code"></i> DevPro
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                
+                <a href="contact.html" class="btn btn-quote">Get Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="hero" style="min-height: 60vh;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="hero-content" data-aos="fade-up">
+                        <h1>Service Pricing</h1>
+                        <p>Choose the perfect package for your project needs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <!-- Pricing Tabs -->
+            <div class="pricing-tabs" data-aos="fade-up" data-aos-delay="100">
+                <button class="pricing-tab active" onclick="showPricing('mobile')">Mobile App</button>
+                <button class="pricing-tab" onclick="showPricing('website')">Website</button>
+                <button class="pricing-tab" onclick="showPricing('custom')">Custom Project</button>
+            </div>
+            
+            <!-- Mobile App Pricing -->
+            <div id="mobile-pricing" class="pricing-content active" data-aos="fade-up" data-aos-delay="200">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3>Basic</h3>
+                                <div class="pricing-price">US$100</div>
+                            </div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Android/iOS App</li>
+                                <li><i class="fas fa-check"></i> Custom UI Design</li>
+                                <li><i class="fas fa-check"></i> Splash Screen</li>
+                                <li><i class="fas fa-check"></i> Basic Navigation</li>
+                                <li><i class="fas fa-check"></i> Offline Support</li>
+                                <li><i class="fas fa-check"></i> Bug Fixes</li>
+                                <li><i class="fas fa-check"></i> Source Code</li>
+                            </ul>
+                            <div class="mb-3">
+                                <small class="text-muted">Revisions: 9</small><br>
+                                <small class="text-muted">Delivery: 6 days</small>
+                            </div>
+                            <button class="btn-select">Select</button>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="pricing-card featured">
+                            <div class="pricing-header">
+                                <h3>Standard</h3>
+                                <div class="pricing-price">US$200</div>
+                            </div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Android + iOS App</li>
+                                <li><i class="fas fa-check"></i> Custom UI/UX Design</li>
+                                <li><i class="fas fa-check"></i> API Integration</li>
+                                <li><i class="fas fa-check"></i> Authentication</li>
+                                <li><i class="fas fa-check"></i> Push Notifications</li>
+                                <li><i class="fas fa-check"></i> App Icon</li>
+                                <li><i class="fas fa-check"></i> Splash Screen</li>
+                                <li><i class="fas fa-check"></i> Offline Caching</li>
+                                <li><i class="fas fa-check"></i> Source Code</li>
+                            </ul>
+                            <div class="mb-3">
+                                <small class="text-muted">Revisions: Unlimited</small><br>
+                                <small class="text-muted">Delivery: 14 days</small>
+                            </div>
+                            <button class="btn-select">Select</button>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3>Premium</h3>
+                                <div class="pricing-price">US$300</div>
+                            </div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Fully Scalable App</li>
+                                <li><i class="fas fa-check"></i> Advanced Features (Chat, Maps, Payments)</li>
+                                <li><i class="fas fa-check"></i> Real-time Database Integration</li>
+                                <li><i class="fas fa-check"></i> Admin Panel</li>
+                                <li><i class="fas fa-check"></i> Analytics Integration</li>
+                                <li><i class="fas fa-check"></i> App Store Submission</li>
+                                <li><i class="fas fa-check"></i> App Icon</li>
+                                <li><i class="fas fa-check"></i> Splash Screen</li>
+                                <li><i class="fas fa-check"></i> Source Code</li>
+                            </ul>
+                            <div class="mb-3">
+                                <small class="text-muted">Revisions: Unlimited</small><br>
+                                <small class="text-muted">Delivery: 21 days</small>
+                            </div>
+                            <button class="btn-select">Select</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Website Pricing -->
+            <div id="website-pricing" class="pricing-content">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3>Starter</h3>
+                                <div class="pricing-price">US$150</div>
+                            </div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Responsive Design</li>
+                                <li><i class="fas fa-check"></i> Landing Page</li>
+                                <li><i class="fas fa-check"></i> Contact Form</li>
+                                <li><i class="fas fa-check"></i> SEO Ready</li>
+                                <li><i class="fas fa-check"></i> Basic Hosting Setup</li>
+                                <li><i class="fas fa-check"></i> Source Code</li>
+                            </ul>
+                            <div class="mb-3">
+                                <small class="text-muted">Revisions: 5</small><br>
+                                <small class="text-muted">Delivery: 7 days</small>
+                            </div>
+                            <button class="btn-select">Select</button>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="pricing-card featured">
+                            <div class="pricing-header">
+                                <h3>Professional</h3>
+                                <div class="pricing-price">US$300</div>
+                            </div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Multi-page Website</li>
+                                <li><i class="fas fa-check"></i> Admin Dashboard</li>
+                                <li><i class="fas fa-check"></i> SEO Optimization</li>
+                                <li><i class="fas fa-check"></i> SSL Setup</li>
+                                <li><i class="fas fa-check"></i> Blog/News Module</li>
+                                <li><i class="fas fa-check"></i> Custom Integrations</li>
+                                <li><i class="fas fa-check"></i> Source Code</li>
+                            </ul>
+                            <div class="mb-3">
+                                <small class="text-muted">Revisions: Unlimited</small><br>
+                                <small class="text-muted">Delivery: 14 days</small>
+                            </div>
+                            <button class="btn-select">Select</button>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3>Enterprise</h3>
+                                <div class="pricing-price">US$500</div>
+                            </div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> E-commerce Website</li>
+                                <li><i class="fas fa-check"></i> Payment Gateway Integration</li>
+                                <li><i class="fas fa-check"></i> Product Management</li>
+                                <li><i class="fas fa-check"></i> Order Tracking</li>
+                                <li><i class="fas fa-check"></i> Advanced SEO & Analytics</li>
+                                <li><i class="fas fa-check"></i> Scalable Hosting</li>
+                                <li><i class="fas fa-check"></i> Source Code</li>
+                            </ul>
+                            <div class="mb-3">
+                                <small class="text-muted">Revisions: Unlimited</small><br>
+                                <small class="text-muted">Delivery: 21 days</small>
+                            </div>
+                            <button class="btn-select">Select</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Custom Project Pricing -->
+            <div id="custom-pricing" class="pricing-content">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3>Custom Starter</h3>
+                                <div class="pricing-price">US$500</div>
+                            </div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Choose between Mobile App, Website or Backend</li>
+                                <li><i class="fas fa-check"></i> Basic Modules: CMS, HRM, Inventory</li>
+                                <li><i class="fas fa-check"></i> Authentication</li>
+                                <li><i class="fas fa-check"></i> Database Setup</li>
+                                <li><i class="fas fa-check"></i> Source Code</li>
+                            </ul>
+                            <div class="mb-3">
+                                <small class="text-muted">Revisions: Flexible</small><br>
+                                <small class="text-muted">Delivery: 2-4 weeks</small>
+                            </div>
+                            <button class="btn-select">Select</button>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="pricing-card featured">
+                            <div class="pricing-header">
+                                <h3>Custom Professional</h3>
+                                <div class="pricing-price">US$1200</div>
+                            </div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Mobile App + Website + Backend</li>
+                                <li><i class="fas fa-check"></i> Custom Features: Ride Sharing, E-commerce, ERP</li>
+                                <li><i class="fas fa-check"></i> Advanced API Integrations</li>
+                                <li><i class="fas fa-check"></i> Real-time Features</li>
+                                <li><i class="fas fa-check"></i> Admin Dashboard</li>
+                                <li><i class="fas fa-check"></i> Analytics</li>
+                                <li><i class="fas fa-check"></i> Source Code</li>
+                            </ul>
+                            <div class="mb-3">
+                                <small class="text-muted">Revisions: Flexible</small><br>
+                                <small class="text-muted">Delivery: 1-2 months</small>
+                            </div>
+                            <button class="btn-select">Select</button>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3>Custom Enterprise</h3>
+                                <div class="pricing-price">Flexible (Large Scale)</div>
+                            </div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> End-to-End Solution</li>
+                                <li><i class="fas fa-check"></i> Cross-platform Mobile Apps</li>
+                                <li><i class="fas fa-check"></i> Complex Backend (Microservices)</li>
+                                <li><i class="fas fa-check"></i> High Scalability & Security</li>
+                                <li><i class="fas fa-check"></i> Multi-language Support</li>
+                                <li><i class="fas fa-check"></i> Third-party API Integrations</li>
+                                <li><i class="fas fa-check"></i> Payment Systems</li>
+                                <li><i class="fas fa-check"></i> DevOps & Cloud Hosting</li>
+                                <li><i class="fas fa-check"></i> Dedicated Maintenance</li>
+                                <li><i class="fas fa-check"></i> Source Code</li>
+                            </ul>
+                            <div class="mb-3">
+                                <small class="text-muted">Revisions: As per contract</small><br>
+                                <small class="text-muted">Delivery: Depends on project</small>
+                            </div>
+                            <button class="btn-select">Select</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="contact" style="padding: 80px 0;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center" data-aos="fade-up">
+                    <h2 class="display-5 fw-bold mb-4">Need a Custom Quote?</h2>
+                    <p class="lead mb-4">Have specific requirements? Let's discuss your project and provide a tailored solution.</p>
+                    <a href="contact.html" class="btn btn-primary btn-lg">Get Custom Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>DevPro Services</h5>
+                    <p class="text-muted">Professional development solutions for modern businesses. We create digital experiences that drive growth and success.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="services.html">Mobile Apps</a></li>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Custom Software</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>Contact Info</h5>
+                    <p class="text-muted">
+                        <i class="fas fa-envelope me-2"></i> info@devproservices.com<br>
+                        <i class="fas fa-phone me-2"></i> +1 (555) 123-4567<br>
+                        <i class="fas fa-map-marker-alt me-2"></i> 123 Tech Street, Digital City
+                    </p>
+                </div>
+            </div>
+            
+            <hr class="my-4">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-muted mb-0">&copy; 2024 DevPro Services. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-muted me-3">Privacy Policy</a>
+                    <a href="#" class="text-muted">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Local JavaScript Files -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
